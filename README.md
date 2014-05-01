@@ -1,12 +1,12 @@
 # Automatically Exporting Assets from Sketch into Xcode.
 
-Today, Bohemian Coding released [SketchTool](http://bohemiancoding.com/sketch/tool/). It’s
-> a command-line app for exporting pages and slices out of .sketch docs.
+Today, Bohemian Coding released [SketchTool](http://bohemiancoding.com/sketch/tool/). It’s “a command-line app for exporting pages and slices out of .sketch docs.”
 
 Many people are using Sketch in their Mac and iOS development workflow. Previously, the process involved making changes in Sketch, then exporting them, moving them into Xcode [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html), then running. However, with SketchTool, this can all be done automatically.
 
 ### Screencast
 ![Screencast](Screencast.mov)
+
 [Download](https://github.com/mdznr/Sketch-Xcode/archive/master.zip) the files used in the screencast.
 
 ### Installing Sketchtool
