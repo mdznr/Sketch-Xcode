@@ -7,7 +7,7 @@ Today, [Bohemian Coding](http://bohemiancoding.com/) released [SketchTool](http:
 Many people use Sketch in their Mac and iOS development workflow. Previously, the process involved making changes in Sketch, exporting them, moving them into Xcode [Asset Catalogs](https://developer.apple.com/library/ios/recipes/xcode_help-image_catalog-1.0/Recipe.html), then running. However, with SketchTool, this can all be done automatically.
 
 ### Screencast
-<iframe src="http://player.vimeo.com/video/93527998" width="680" height="382" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+[Watch the screencast](https://vimeo.com/93527998).
 
 [Download](https://github.com/mdznr/Sketch-Xcode/archive/master.zip) the files used in the screencast.
 
