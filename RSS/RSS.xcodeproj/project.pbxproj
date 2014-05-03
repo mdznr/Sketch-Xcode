@@ -164,7 +164,7 @@
 			buildPhases = (
 				C9F46C611912DA97007EE701 /* Sources */,
 				C9F46C621912DA97007EE701 /* Frameworks */,
-				C9F46CA01912DAB2007EE701 /* Export Sketh Assets */,
+				C9F46CA01912DAB2007EE701 /* Export Sketch Assets */,
 				C9F46C631912DA97007EE701 /* Resources */,
 			);
 			buildRules = (
@@ -251,19 +251,19 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		C9F46CA01912DAB2007EE701 /* Export Sketh Assets */ = {
+		C9F46CA01912DAB2007EE701 /* Export Sketch Assets */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Export Sketh Assets";
+			name = "Export Sketch Assets";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# AppIcon\nsketchtool export artboards \"$PROJECT_DIR\"/\"Graphics Resources/AppIcon.sketch\" --output=\"$PROJECT_DIR\"/\"$PROJECT_NAME\"/Images.xcassets/AppIcon.appiconset --formats=\"png\"";
+			shellScript = "# AppIcon\nsketchtool export artboards \"$PROJECT_DIR\"/\"Graphics Resources/AppIcon.sketch\" --output=\"$PROJECT_DIR\"/\"$PROJECT_NAME\"/Images.xcassets/AppIcon.appiconset --formats=\"png\"\n\n# LaunchImage\nsketchtool export artboards \"$PROJECT_DIR\"/\"Graphics Resources/LaunchImage.sketch\" --output=\"$PROJECT_DIR\"/\"$PROJECT_NAME\"/Images.xcassets/LaunchImage.launchimage --formats=\"png\"";
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -489,6 +489,7 @@
 				C9F46C9C1912DA97007EE701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F46C9D1912DA97007EE701 /* Build configuration list for PBXNativeTarget "RSSTests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +498,7 @@
 				C9F46C9F1912DA97007EE701 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
