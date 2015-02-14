@@ -12,15 +12,16 @@ Many people use Sketch in their Mac and iOS development workflow. Previously, th
 [Download](https://github.com/mdznr/Sketch-Xcode/archive/master.zip) the files used in the screencast.
 
 ### Installing Sketchtool
-You can [download](http://bohemiancoding.com/sketch/tool/) the latest version of Sketchtool from Bohemian Coding’s website. To install it, put both `sketchtool` and `sketchtool resources.bundle` in `/usr/bin`.
+You can [download](http://bohemiancoding.com/sketch/tool/) the latest version of Sketchtool from Bohemian Coding’s website. To install it, run "install.sh".
 
 Alternatively, use the following lines of code pasted into Terminal to do effectively the same thing:
 
 ```
-curl -O http://sketchtool.bohemiancoding.com/sketchtool-latest.zip;\
+curl http://static-download.s3-website-us-east-1.amazonaws.com/sketchtool/sketchtool-latest.zip > sketchtool-latest.zip;\
 unzip sketchtool-latest.zip;\
-sudo cp sketchtool/sketchtool /usr/bin/sketchtool;\
-sudo cp -R sketchtool/sketchtool\ resources.bundle/ /usr/bin/sketchtool\ resources.bundle/;\
+cd sketchtool/;\
+./install.sh;\
+cd ../;\
 rm -r sketchtool/;\
 rm sketchtool-latest.zip;
 ```
